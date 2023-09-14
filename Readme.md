@@ -8,3 +8,4 @@ from 2018 to 2023.
 Dashboard developed using streamlit, HTML and CSS.
 ![Deforestation Predictor](./dashboard.png)
 
+Dashboard : https://deforestationpredictorwebapp-pedv77wsmxjhovppeyptq5.streamlit.app/
