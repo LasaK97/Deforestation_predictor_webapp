@@ -6,7 +6,7 @@ import pandas as pd
 
 st.set_page_config(page_title= 'Deforestation Predictor ', layout="wide")
 
-with open('./Dashboard/static/style.css') as f:
+with open('./static/style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 st.markdown("<h1 class = 'title'>DETECTION OF DEFORESTATION USING SATELLITE IMAGES IN SRI LANKA</h1>",unsafe_allow_html=True)
@@ -19,7 +19,7 @@ def get_img_as_base64(file):
         data = f.read()
     return base64.b64encode(data).decode()
 
-img = get_img_as_base64('./Dashboard/background/back.jpg')
+img = get_img_as_base64('./background/back.jpg')
 page_bg_img = f"""
     <style> 
     [data-testid="stAppViewContainer"] {{
@@ -38,7 +38,7 @@ page_bg_img = f"""
 # loading model
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
-with open('./Dashboard/model/model.pickle', 'rb') as file:
+with open('./model/model.pickle', 'rb') as file:
     loaded_model = pickle.load(file)
 
 
