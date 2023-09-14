@@ -1,0 +1,94 @@
+.title{
+    color : #023020;
+    margin-top: 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    -webkit-text-stroke: #90EE90;
+    -webkit-text-stroke-width: 2px;
+}
+
+.title-container {
+    margin-top: 0;
+}
+
+.box{
+    background-color: white; 
+    opacity: 0.7;
+    padding: 10px; 
+    margin: 10px 10px;
+}
+
+.inputfield{
+    color: red;
+}
+
+/* .css-ocqkz7.e1f1d6gn3{
+    background-color: rgba(0, 0, 0, 0.5);  
+    border-radius: 15px;
+    border: 2px #004225;
+} */
+
+
+.css-115gedg.e1f1d6gn1{
+    background-color: rgba(0, 0, 0, 0.8);  
+    border-radius: 15px;
+    border: 2px solid #90EE90;
+    padding: 10px;
+}
+
+.css-1r6slb0.e1f1d6gn1{
+    background-color: rgba(0, 0, 0, 0.8);  
+    border-radius: 15px;
+    border: 2px  solid #90EE90;
+    padding: 10px;
+}
+
+.css-1avcm0n.ezrtsby2{
+    visibility: hidden;
+    margin-bottom: 0;
+}
+
+.stMarkdown{
+    margin-top: 0;
+}
+
+.element-container.css-1qaq3qt.e1f1d6gn2{
+    margin: 0;
+    padding: 0;
+}
+
+.block-container.css-z5fcl4.ea3mdgi4{
+    margin: 0;
+}
+
+.css-q8sbsg.e1nzilvr5 p{
+    font-weight: bold;
+    font-style: italic;
+    text-align: justify;
+}
+
+.css-nahz7x.e1nzilvr5 p{
+    color: white;
+    text-align: justify;
+}
+/* #predicted-future-deforestation{
+    color: #90EE90;
+} */
+
+.css-1pz6qv5.e1f1d6gn0 p{
+    color: white;
+    
+}
+
+.element-container.css-6q1caf.e1f1d6gn2 h2{
+    color: red;
+    margin: 0;
+    font-size: 70pxS;
+    padding: 0 150px;
+    padding-bottom: 20px;
+}
+
+#information{
+    color: #90EE90;
+}
